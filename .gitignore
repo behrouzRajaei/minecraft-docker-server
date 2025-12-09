@@ -1,0 +1,44 @@
+# ===============================
+# OS / System files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Environment files (SECURITY)
+# ===============================
+.env
+
+# ===============================
+# Minecraft Server files
+# ===============================
+world/
+world_nether/
+world_the_end/
+logs/
+ops.json
+whitelist.json
+usercache.json
+banned-players.json
+banned-ips.json
+server.properties
+eula.txt
+
+# ===============================
+# Java
+# ===============================
+*.jar
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Temporary / Backup
+# ===============================
+*.log
+*.tmp
+*.bak
