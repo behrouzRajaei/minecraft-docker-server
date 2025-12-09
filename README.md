@@ -114,6 +114,7 @@ restart: unless-stopped
 
 ```dockerfile
 ENTRYPOINT ["bash", "-c", "java -Xms${MEMORY_MIN} -Xmx${MEMORY_MAX} -jar server.jar nogui"]
+```
 
 ## 7. Customization & Mods
 
