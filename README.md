@@ -59,6 +59,9 @@ docker-compose up -d --build
 docker ps
 ```
 4. (Optional) Connect with a Minecraft Java Edition client to <IP-server>:8888
+
+![test_connect](./images/test_connect.png)
+
 ---
 
 ## 4. Usage
@@ -154,7 +157,7 @@ We welcome contributions! Please follow these steps:
 - Persistent volumes ensure world data and configurations are preserved across container restarts
 - This repository provides a clean and reproducible setup for running a customized Minecraft server in Docker
 - Test the connection to own server
-![test_connect](./images/test_connect.png)
+
 ## 10. License
 
 This project is licensed under the **MIT License**.
