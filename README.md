@@ -22,7 +22,9 @@ The project is designed to run a Minecraft server inside a Docker container **wi
 
 ### Main components
 - **Dockerfile** → builds a custom Minecraft server image
+![Dockerfile_text](./images/Dockerfile.png)
 - **docker-compose.yaml** → manages the Minecraft server container
+![Docker-compose_text](./images/docker-compose.png)
 - **Persistent volume** → stores world data and configuration
 
 ### Main purpose
@@ -151,7 +153,8 @@ We welcome contributions! Please follow these steps:
 - Optional testing can be done with a **Java Edition client** connecting to `<IP-server>:8888`
 - Persistent volumes ensure world data and configurations are preserved across container restarts
 - This repository provides a clean and reproducible setup for running a customized Minecraft server in Docker
-
+- Test the connection to own server
+![test_connect](./images/test_connect.png)
 ## 10. License
 
 This project is licensed under the **MIT License**.
